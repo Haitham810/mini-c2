@@ -1,0 +1,17 @@
+# TLS certificates — never commit private keys
+server/cert.pem
+server/key.pem
+
+# SQLite database (contains agent data + command history)
+server/c2.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
